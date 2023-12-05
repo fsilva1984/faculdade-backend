@@ -1,0 +1,12 @@
+
+.header {
+  width: 100%;
+  padding: 5px;
+  background-color: darkcyan;
+}
+.header h1 {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  color: #8adcff
+}

@@ -1,0 +1,12 @@
+
+
+
+## WebStorage ##
+
+
+
+if (typeof (Storage) !== "undefined") {
+alert("Seu navegador possui suporte ao WebStorage!")
+} else {
+alert("Desculpe, mas seu navegador não possui suporte!")
+}

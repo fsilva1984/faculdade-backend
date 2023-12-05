@@ -1,0 +1,12 @@
+.header {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 5px;
+}
+
+.header h1 {
+  color: #c9c7c7;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}

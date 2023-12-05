@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #282c34;
+  margin: 5px;
+}

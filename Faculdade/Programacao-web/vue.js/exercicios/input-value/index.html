@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>input value</title>
+<style>
+  span {
+    padding: 5px;
+  }
+</style>
+  <script src=" https://cdn.jsdelivr.net/npm/vue@3.3.8/dist/vue.global.min.js "></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="app">
+
+    <span>{{ n1 }}</span>
+    <span>{{ idx }}</span>
+    <span>{{ n2 }}</span>
+    <span><strong>=</strong></span>
+    <input type="number" v-model="resp">
+    <span>{{ parseInt(n1) idx parseInt(n2) }}</span>
+
+  </div>
+</body>
+
+</html>

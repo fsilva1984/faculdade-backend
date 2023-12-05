@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue.js Aula 001</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="main" style="margin-bottom: 25px;">
+
+    <!--<h1 id="h1" v-html="title"></h1>-->
+    <h1 id="h1">{{ title }}</h1>
+
+
+    <p id="msg" v-if="true">{{ m }}</p>
+
+    <button id="btn">Try</button>
+ 
+  </div>
+
+
+
+  <div id="txt">
+
+    <input type="text" v-model="texto">
+    <span>{{ texto }}</span>
+
+  </div>
+
+
+  <div id="list">
+
+    <ul>
+      <li v-for="info in user" style="padding: 8px;">
+        <span>Name: </span>
+        <span v-text="info.name"></span>
+        <span>Lastname: </span>
+        <span v-text="info.lName"></span>
+        <span>Age: </span>
+        <span v-text="info.age"></span>
+        <br>
+        User: {{ info.name +" "+ info.lName +" "+ info.age }}
+      </li>
+    </ul>
+
+  </div>
+
+
+  <div id="placar">
+    <div>{{ n }}</div>
+    <span v-if="n > 5">{{ frase }}</span>
+  </div>
+
+
+  <div id="sum">
+    <span>{{ n1 }}</span>
+    <input type="number" v-model="n2" v-if="n2 <= 0">
+    <span >{{ n1+parseInt(n2) }}</span>
+  </div>
+
+  <div id="testBtn">
+    <button v-on:click="n += 1"></button>
+    <span>{{ n }}</span>
+  </div>
+
+</body>
+</html>

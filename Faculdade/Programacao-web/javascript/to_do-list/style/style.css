@@ -1,0 +1,196 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400;1,500&display=swap');
+
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+   background-color: rgb(109, 109, 109);
+ }
+
+
+ header {
+   background-color: #a35858;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+ }
+
+ header h1 {
+   font-size: 2.25rem;
+   color: aliceblue;
+   text-align: center;
+   width: 100%;
+ }
+
+ header input {
+   font-size: 1.5rem;
+   padding: 8px;
+   width: 80%;
+   border: none;
+   border-radius: 8px;
+   text-transform: capitalize;
+ }
+
+ header #bt {
+   color: aliceblue;
+   font-size: 2.25rem;
+   margin: 3px 3px;
+   transition: 500ms;
+   cursor: pointer;
+ }
+
+ header #bt:hover {
+   scale: 1.7;
+   transform: rotate(180deg);
+ }
+
+ #container {
+   display: flex;
+   justify-content: center;
+ }
+
+ #box-list {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+ }
+
+ ul {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+ ul li {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+   font-size: 1.25rem;
+   list-style: none;
+   width: 100%;
+   margin-top: 3px;
+   padding: 10px 0;
+   cursor: pointer;
+   background-color: #faba8f;
+   transition: 500ms;
+
+ }
+
+ ul li .tarefa {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ /*ul li:nth-child(odd){background-color: #e5ad87;}*/
+ ul li:hover {
+   background-color: #f59555;
+ }
+
+ ul li span {
+   width: 90%;
+ }
+
+ ul li i {
+   padding: 10px;
+ }
+
+ ul li .confirmed {
+   text-decoration: line-through;
+ }
+
+ 
+
+ ul li .trash {
+   color: #c44747;
+   transition: 500ms;
+ }
+
+ ul li .trash:hover {
+   color: #ce1c1c;
+   scale: 1.7;
+ }
+
+ @media(min-width: 600px) {
+   header input {
+     width: 60%;
+   }
+
+   #box-list {
+     width: 80%;
+   }
+
+ }
+
+ @media(min-width: 800px) {
+   header input {
+     width: 40%;
+   }
+
+   #box-list {
+     width: 60%;
+   }
+
+ }
+
+
+ @media(min-width: 1281px) {
+   header input {
+     width: 20%;
+   }
+
+   #box-list {
+     width: 35%;
+   }
+
+ }
+
+
+ @media(min-width: 1921px) {
+   header input {
+     width: 17%;
+   }
+
+   #box-list {
+     width: 25%;
+   }
+
+ }
+
+
+ /*
+
+ @media(max-width: 600px) {
+   header input {
+     width: 85%;1280
+   }
+
+   #box-list {
+     width: auto;
+   }
+
+   ul li {
+     width: auto;
+   }
+
+ }
+
+ @media(max-width: 800px) {
+   header input {
+     width: 50%;
+   }
+
+ }
+
+ @media(max-width: 1280px) {
+   header input {
+     width: 35%;
+   }
+
+   #box-list {
+     width: 60%;
+   }
+
+ }
+ */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Render img</title>
+
+  <style>
+    img {
+      background-color: white;
+      width: 100px;
+      height: 100px;
+    }
+
+    img:hover {
+      scale: 1.5;
+      cursor: pointer;
+      transition: 600ms;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+  <script src="./script.js" defer></script>
+
+
+</head>
+
+<body>
+
+  <div id="app">
+
+    <button v-on:click="img = true">Show emoji</button>
+    <img v-show="img" src="./emoji.jpg" alt="emoji" v-bind:style="img">
+  </div>
+
+</body>
+
+</html>

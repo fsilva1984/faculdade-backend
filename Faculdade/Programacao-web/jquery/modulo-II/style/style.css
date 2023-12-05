@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #575861;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  width: 58%;
+  padding: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 37px;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: 800ms;
+}
+
+.btn:hover {
+  scale: 1.5;
+}
+
+
+.box-colors {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.tb-2 button {
+  background-color: antiquewhite;
+}
+
+#colorAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #575861;
+  cursor: pointer;
+  padding: 0;
+  width: 86%;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid antiquewhite;
+  transition: 800ms;
+}
+
+#colorAll .arco {
+  height: 14%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: antiquewhite;
+}
+
+#container-1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.area-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  width: 70%;
+  height: 150px;
+  color: antiquewhite;
+}
+
+.f-roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.f-nunito {
+  font-family: 'Nunito',
+    sans-serif
+}
+
+.f-ubuntu {
+  font-family: 'Ubuntu',
+    sans-serif;
+}
+
+.f-vina {
+  font-family: 'Vina Sans',
+    sans-serif;
+}
+
+.f-inconsolata {
+  font-family: 'Inconsolata',
+    monospace;
+}
+
+.f-noto {
+  font-family: 'Noto Sans Glagolitic',
+    sans-serif;
+}
+
+.f-libre {
+  font-family: 'Libre Baskerville',
+    serif;
+}
+
+.f-josefin {
+  font-family: 'Josefin Sans',
+    sans-serif;
+}
+
+.f-dosis {
+  font-family: 'Dosis',
+    sans-serif;
+}
+
+.f-edu-tas {
+  font-family: 'Edu TAS Beginner',
+    cursive;
+}
+
+.f-lobster {
+  font-family: 'Lobster',
+    sans-serif;
+}
+
+.f-glass {
+  font-family: 'Glass Antiqua',
+    cursive;
+}
